@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    height: 5vh;
+}
+
+.nav-item {
+    margin-left: 65px; 
+}
+
+.carousel {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-caption {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    opacity: 80%;
+}
+
+.first-slide {
+    max-height: 55vh;
+    object-fit: cover;
+}
+
+.my-cards {
+    display: flex;
+    justify-content: space-evenly;
+    height: 35vh;
+    margin: 5px;
+    gap: 10px;
+}
+
+.card {
+
+}
+
+.card > img {
+    width: 12%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.card-text {
+    font-size: smaller;
+}
+
+footer {
+    height: 5vh;
+    background-color: rgb(132, 132, 135);
+}
+
+footer > ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+footer > ul > li > a  {
+    text-decoration: none;
+    color: black;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1290px) {
+    .nav-item {
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width: 1075px) {
+    .nav-item {
+        margin-left: 20px;
+    }
+}
