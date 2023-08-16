@@ -45,6 +45,12 @@ body {
     margin-bottom: 250px;
 }
 
+/* faq */
+.faq-class > li {
+    padding: 5px;
+    list-style-type: decimal;
+}
+
 
 footer {
     margin-top: 100px;
